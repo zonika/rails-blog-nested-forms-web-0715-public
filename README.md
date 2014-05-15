@@ -12,7 +12,8 @@ When we built out that checkbox collection, you might have noticed that while us
 
 ## Tags
 
-
+1. While we're at it, let's build out a tag show page that lists all posts associated with a tag.
+2. 
 
 ## Comments
 
