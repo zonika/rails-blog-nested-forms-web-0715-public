@@ -1,7 +1,7 @@
 ---
 tags: rails, strong params, complex nested forms
 language: ruby
-resources: 3
+resources: 1
 ---
 
 # Rails Blog: Complex Nested Forms
