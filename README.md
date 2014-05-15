@@ -8,12 +8,14 @@ resources: 3
 
 We're going to build off our previous iteration of our Blog App, where we created new models for Users and Tags (and applicable associations) and wrote validations. We want to clean up our tagging feature and add a feature that allows a user to comment on a post.
 
-When we built out that checkbox collection, you might have noticed that while useful, it probably wasn't the best way to go about adding tags to a post. Ideally, we want a user to be able to add tags to a post as they're writing a post. Let's do just that.
+Our ability to add tags to a new post is super useful, but what if when we're making a new post, as want to add a new tag that isn't in the list? Let's build that out.
 
 ## Tags
 
-1. While we're at it, let's build out a tag show page that lists all posts associated with a tag.
-2. 
+1. We need to change the permitted params in our post controller to accept another attribute: `:tags_attributes`, which permit the tag attributes that we need to create a new tag.
+2. `accepts_nested_attributes_for` on Post model, which will permit tags to be nested in our new post form.
+3. Now we can build a nested form on our Post form. Check out the documentation on [Nested Forms](http://guides.rubyonrails.org/form_helpers.html#nested-forms) for help.
+4. We should be able to select previously create tags, as well as create a new tag.
 
 ## Comments
 
