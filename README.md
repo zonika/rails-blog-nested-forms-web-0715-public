@@ -18,4 +18,5 @@ We're going to build off our previous iteration of our Blog App, where we create
 ## Resources
 
 [Strong Params](http://edgeguides.rubyonrails.org/action_controller_overview.html#strong-parameters)
+
 [Nested Forms](http://guides.rubyonrails.org/form_helpers.html#nested-forms)
