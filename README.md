@@ -14,3 +14,4 @@ We're going to build off our previous iteration of our Blog App, where we create
 2. `accepts_nested_attributes_for` on Post model, which will permit tags to be nested in our new post form.
 3. Now we can build a nested form on our Post form. Check out the documentation on [Nested Forms](http://guides.rubyonrails.org/form_helpers.html#nested-forms) for help.
 4. We should be able to select previously create tags, as well as create a new tag.
+5. Remember, because we have a validation on name presence of tag, we will need to account for that.
