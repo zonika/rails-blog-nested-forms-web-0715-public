@@ -1,7 +1,7 @@
 ---
-tags: rails, strong params, complex nested forms
+tags: rails, strong params, complex nested forms, fields_for
 language: ruby
-resources: 2
+resources: 3
 ---
 
 # Rails Blog: Complex Nested Forms
@@ -14,10 +14,12 @@ We're going to build off our previous iteration of our Blog App, where we create
 2. `accepts_nested_attributes_for` on Post model, which will permit tags to be nested in our new post form.
 3. Now we can build a nested form on our Post form. Check out the documentation on [Nested Forms](http://guides.rubyonrails.org/form_helpers.html#nested-forms) for help.
 4. We should be able to select previously create tags, as well as create a new tag.
-5. Remember, because we have a validation on name presence of tag, we will need to account for that.
+5. Remember, because we have a validation on name presence of tag, we will need to account for that; a user shouldn't have to submit a new tag every time they submit a post. To do this, the form for a new tag should call our `@post` instance, and instantiate a new tag. Check out the documentation for the [fields_for tag](http://apidock.com/rails/ActionView/Helpers/FormHelper/fields_for).
 
 ## Resources
 
 [Strong Params](http://edgeguides.rubyonrails.org/action_controller_overview.html#strong-parameters)
 
 [Nested Forms](http://guides.rubyonrails.org/form_helpers.html#nested-forms)
+
+[fields_for tag](http://apidock.com/rails/ActionView/Helpers/FormHelper/fields_for)
