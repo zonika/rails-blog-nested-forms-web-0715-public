@@ -1,7 +1,7 @@
 ---
 tags: rails, strong params, complex nested forms, fields_for
 language: ruby
-resources: 3
+resources: 4
 ---
 
 # Rails Blog: Complex Nested Forms
@@ -25,3 +25,5 @@ We're going to build off our previous iteration of our Blog App, where we create
 [Nested Forms](http://guides.rubyonrails.org/form_helpers.html#nested-forms)
 
 [fields_for tag](http://apidock.com/rails/ActionView/Helpers/FormBuilder/fields_for)
+
+[Rails 4 Way: Nested Attributes Examples](http://beta-library.herokuapp.com/books/the-rails-4-way#page=362)
