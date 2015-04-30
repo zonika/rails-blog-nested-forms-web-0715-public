@@ -19,14 +19,10 @@ We're going to build off our previous iteration of our Blog App, where we create
 5. Remember, because we have a validation on name presence of tag, we will need to account for that; a user shouldn't have to submit a new tag every time they submit a post. To do this, the form for a new tag should instantiate a new tag. Check out the documentation for the [fields_for tag](http://apidock.com/rails/ActionView/Helpers/FormBuilder/fields_for).
 
 ## Resources
-
 [Strong Params](http://edgeguides.rubyonrails.org/action_controller_overview.html#strong-parameters)
 
 [Nested Forms](http://guides.rubyonrails.org/form_helpers.html#nested-forms)
 
 [fields_for tag](http://apidock.com/rails/ActionView/Helpers/FormBuilder/fields_for)
 
-[Rails 4 Way: Nested Attributes Examples](http://beta-library.herokuapp.com/books/the-rails-4-way#page=362)
-
 [Preventing Empty Records](http://guides.rubyonrails.org/form_helpers.html#preventing-empty-records)
-
