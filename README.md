@@ -1,8 +1,4 @@
----
-tags: rails, strong params, complex nested forms, fields_for
-language: ruby
-resources: 5
----
+
 
 # Rails Blog: Complex Nested Forms
 
